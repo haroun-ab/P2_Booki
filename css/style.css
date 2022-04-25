@@ -61,9 +61,12 @@ header img {
     height: 45px;
 }
 
+
 header h1 {
     margin: 0;
-    padding: 1% 0 0 1%;
+    padding: 1% 0 0 0;
+    width: 95px;
+    height: 45px;
 }
 
 nav a {
@@ -95,6 +98,7 @@ a {
     header h1 {
         display: block;
         margin: 15px auto;
+        padding: 0;
     }
 
     header {
@@ -122,9 +126,9 @@ a {
     }
 }
 
-@media (max-resolution: 2dppx) {
-    header h1 {
-        padding-left: 38px;
+@media (max-resolution: 2dppx) and (max-width: 992px) {
+    header img {
+        margin: 0 0 0 15%;
     }
 }
 
