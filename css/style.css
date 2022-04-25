@@ -66,7 +66,8 @@ header h1 {
     margin: 0;
     padding: 1% 0 0 0;
     width: 95px;
-    height: 45px;
+    height: 45px; 
+    overflow:hidden;
 }
 
 nav a {
@@ -126,11 +127,7 @@ a {
     }
 }
 
-@media (max-resolution: 2dppx) and (max-width: 992px) {
-    header img {
-        margin: 0 0 0 15%;
-    }
-}
+
 
 /*____________TEXTE BARRE DE RECHERCHE__________*/
 .search_text {
