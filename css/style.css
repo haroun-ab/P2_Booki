@@ -608,7 +608,7 @@ a {
   }
 }
 
-/*ACTIVITES*/
+/*ACTIVITES A MARSEILLE*/
 .activities {
   border: 1px var(--bleu);
   padding: 1%;
@@ -708,7 +708,7 @@ a {
     margin-bottom: 10%;
   }
 
-  .full-height .activite-container img {
+  .full-height .activity-container img {
     height: 155px;
   }
 
